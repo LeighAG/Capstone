@@ -1,0 +1,14 @@
+name: myenvironment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - ipywidgets
+  - numpy
+  - pip
+  - pip:
+      - IPython
